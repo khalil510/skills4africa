@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q8aqtc0c%spl5qzzmd&*y08_rj@%rus!_#q8cmxhz-5$+70#9n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["skills4africa.onrender.com"]
+ALLOWED_HOSTS = ["skills4africa.onrender.com","127.0.0.1"]
 
 
 # Application definition
@@ -135,6 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Headers configuration
 CORS_ALLOWED_ORIGINS = [
-    "https://skills4africafront.onrender.com/",  # Allow your React development server
+    "http://localhost:3000",  # Allow your React development server
     # Add your production React domain here when deployed
 ]
