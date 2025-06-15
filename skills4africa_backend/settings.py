@@ -135,6 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Headers configuration
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Allow your React development server
+    "https://skills4africafront.onrender.com/",  # Allow your React development server
     # Add your production React domain here when deployed
 ]
